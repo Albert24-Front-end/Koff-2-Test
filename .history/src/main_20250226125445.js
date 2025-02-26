@@ -1,5 +1,5 @@
-import Swiper from 'swiper';
-import {Navigation, Thumbs} from 'swiper/modules';
+import Swiper from '/node_modules/swiper';
+import {Navigation, Thumbs} from '/node_modules/swiper/modules';
 import 'swiper/css';
 
 const swiperThumbnails = new Swiper(".product__slider-thumbnails", {
@@ -11,8 +11,8 @@ const swiperThumbnails = new Swiper(".product__slider-thumbnails", {
 new Swiper(".product__slider-main", {
   spaceBetween: 10,
   navigation: {
-    nextEl: ".product__arrow_next",
-    prevEl: ".product__arrow_prev",
+    nextEl: ".product__arrow-next",
+    prevEl: ".product__arrow-prev",
   },
   modules: [Navigation, Thumbs],
   thumbs: {
