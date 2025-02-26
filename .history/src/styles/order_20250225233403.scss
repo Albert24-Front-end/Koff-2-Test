@@ -1,0 +1,50 @@
+.order {
+
+    // .order__container
+
+    &__container {
+        margin-top: 32px;
+    }
+
+    // .order__title
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    // .order__title-message
+
+    &__title-message {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    // .order__title-price
+
+    &__title-price {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    // .order__number
+
+    &__number {
+    }
+
+    // .order__features
+
+    &__features {
+    }
+
+    // .order__features-title
+
+    &__features-title {
+    }
+
+    // .order__features-table
+
+    &__features-table {
+    }
+}

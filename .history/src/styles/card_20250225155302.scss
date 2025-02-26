@@ -1,0 +1,109 @@
+.card {
+    position: relative;
+    
+
+    // @media (min-width: 580px) {
+    //     display: grid;
+    //     grid-template-columns: 
+    //     'image image'
+    //     'title price'
+    //     'button button';
+    // }
+
+    // .card__link
+
+    &__link {
+        &_img {
+            display: block;
+            margin-bottom: 12px;
+
+            // @media (min-width: 580px) {
+            //     grid-area: image;
+            // }
+            @media (min-width: 580px) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    // .card__img
+
+    &__img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+    &__info {
+        @media (min-width: 580px) {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 4px;
+        font-size: 12px;
+        font-weight: 400;
+
+        @media (min-width: 580px) {
+            padding-top: 3px;
+            font-size: 16px;
+            margin-bottom: 0;
+            // grid-area: title;
+        }
+    }
+
+    &__price {
+        margin-bottom: 12px;
+        font-size: 16px;
+
+        @media (min-width: 580px) {
+            font-size: 20px;
+            margin-bottom: 0;
+            // grid-area: price;
+        }
+        @media (min-width: 580px)
+    }
+
+    &__btn {
+        width: 100%;
+        padding: 12px 24px;
+        color: #780096;
+        border-radius: 32px;
+        border: 1px solid #780096;
+
+        &:hover,
+        &:focus-visible {
+            border-color: #780096;
+            background-color: #780096;
+            color: #fff;
+        }
+
+        &:active,
+        &_active {
+            color: #780096;
+            background-color: #fff;
+            border: 1px solid #c0f;
+
+            &:hover,
+            &:focus-visible {
+                color: #780096;
+            }
+        }
+        &_active {
+            pointer-events: none;
+        }
+
+        // @media (min-width: 580px) {
+        //     grid-area: button;
+        // }
+    }
+
+    &__favourite {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+}

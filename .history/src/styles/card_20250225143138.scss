@@ -1,0 +1,44 @@
+.card {
+    position: relative;
+    display: grid;
+
+    @media (min-width: 580px) {
+        grid-template-columns: 
+        'image image'
+        'title price'
+        'button button';
+    }
+    // .card__link
+
+    &__link {
+        &_img {
+            grid-area: image;
+        }
+    }
+
+    // .card__img
+
+    &__img {
+    }
+
+    // .card__title
+
+    &__title {
+        grid-area: title;
+    }
+
+    // .card__price
+
+    &__price {
+        grid-area: price;
+    }
+
+    &__btn {
+        grid-area: button;
+    }
+
+    &__favourite {
+    }
+
+   
+}

@@ -1,0 +1,61 @@
+.header {
+
+    // .header__container
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EEEFF2;
+
+    &__container {
+        display: grid;
+        justify-content: space-between;
+        gap: 16px;
+        grid-template-areas: 'logo control'
+                                           'search search';
+            @media (min-width)
+    }
+
+    // .header__link-logo
+
+    &__link-logo {
+    }
+
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__search
+
+    &__search {
+    }
+
+    // .header__input
+
+    &__input {
+    }
+
+    // .header__btn
+
+    &__btn {
+    }
+
+    // .header__control
+
+    &__control {
+    }
+
+    // .header__link
+
+    &__link {
+    }
+
+    // .header__link-text
+
+    &__link-text {
+    }
+
+    // .header__link-count
+
+    &__link-count {
+    }
+}

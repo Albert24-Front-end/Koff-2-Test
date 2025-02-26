@@ -1,0 +1,60 @@
+.card {
+    position: relative;
+    
+
+    @media (min-width: 580px) {
+        display: grid;
+        grid-template-columns: 
+        'image image'
+        'title price'
+        'button button';
+    }
+    // .card__link
+
+    &__link {
+        &_img {
+            margin-bottom: 12px;
+            @media (min-width: 580px) {
+                grid-area: image;
+            }
+        }
+    }
+
+    // .card__img
+
+    &__img {
+        width: 100%;
+        object-fit: cover;
+        border
+    }
+
+    // .card__title
+
+    &__title {
+        margin-bottom: 4px;
+        @media (min-width: 580px) {
+            grid-area: title;
+        }
+    }
+
+    // .card__price
+
+    &__price {
+        margin-bottom: 12px;
+        @media (min-width: 580px) {
+            grid-area: price;
+        }
+    }
+
+    &__btn {
+        @media (min-width: 580px) {
+            grid-area: button;
+        }
+    }
+
+    &__favourite {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+}

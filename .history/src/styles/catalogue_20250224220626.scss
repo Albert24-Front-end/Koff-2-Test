@@ -1,0 +1,38 @@
+.catalogue {
+    overflow-x: hidden;
+    padding-top: 24px;
+
+    @media (min-width: 580px) {
+        padding-top: 32px;
+    }
+    @media (min-width: 820px) {
+        padding-top: 40px;
+    }
+    // .catalogue__container
+
+    &__container {
+        padding: 0;
+
+        @media (min-width: 1120px) {
+            padding: 0 92px;
+        }
+    }
+
+    // .catalogue__list
+
+    &__list {
+        overflow-x: auto;
+        padding: 0 16px;
+    }
+
+    // .catalogue__item
+
+    &__item {
+    }
+
+    // .catalogue__link
+
+    &__link {
+    }
+}
+

@@ -1,0 +1,30 @@
+.goods {
+    padding-top: 24px;
+    
+    @media (min-width: 580px) {
+        padding-top: 32px;
+    }
+    @media (min-width: 820px) {
+        padding-top: 40px;
+    }
+    // .goods__title
+
+    &__title {
+    }
+
+    // .goods__list
+
+    &__list {
+    }
+
+    // .goods__item
+
+    &__item {
+    }
+
+    // .goods__card
+
+    &__card {
+    }
+}
+

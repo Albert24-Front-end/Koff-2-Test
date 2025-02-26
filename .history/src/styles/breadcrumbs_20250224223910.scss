@@ -1,0 +1,46 @@
+.breadcrumbs {
+  padding-top: 20px;
+
+  @media (min-width: 580px) {
+    padding-top: 24px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 6px;
+    color: #969eae;
+  }
+
+  &__item {
+    display: flex;
+    gap: 6px;
+  }
+
+  &__item:last-child &__separator {
+    display: none;
+  }
+}
+
+.breadcrumbs {
+
+  // .breadcrumbs__container
+
+  &__container {
+  }
+
+  // .breadcrumbs__list
+
+  &__list {
+  }
+
+  // .breadcrumbs__item
+
+  &__item {
+  }
+
+  // .breadcrumbs__separator
+
+  &__separator {
+  }
+}
+
