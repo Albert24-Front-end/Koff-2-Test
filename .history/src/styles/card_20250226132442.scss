@@ -34,9 +34,12 @@
         border-radius: 16px;
         aspect-ratio: 7/6;
         @media (min-width: 580px) {
-            aspect-ratio: 230/200;
+            aspect-ratio: 302/250;
         }
-        @media (min-width: 820px) {
+        @media (min-width: 1120px) {
+            aspect-ratio: 302/250;
+        }
+        @media (min-width: 1120px) {
             aspect-ratio: 302/250;
         }
     }

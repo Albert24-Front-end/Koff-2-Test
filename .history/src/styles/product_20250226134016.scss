@@ -74,8 +74,6 @@
   }
 
   &__slide img {
-    width: 100%;
-    object-fit: cover;
     aspect-ratio: 288/236;
     @media (min-width: 580px) {
        aspect-ratio: 710/586;
@@ -86,7 +84,7 @@
     }
 
     @media (min-width: 1120px) {
-       aspect-ratio: 832/688;
+       aspect-ratio: 288/236;
     }
   }
 

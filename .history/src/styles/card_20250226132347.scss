@@ -33,11 +33,8 @@
         object-fit: cover;
         border-radius: 16px;
         aspect-ratio: 7/6;
-        @media (min-width: 580px) {
-            aspect-ratio: 230/200;
-        }
-        @media (min-width: 820px) {
-            aspect-ratio: 302/250;
+        @media (min-width: 1120px) {
+            aspect-ratio: 302;
         }
     }
 
