@@ -1,0 +1,35 @@
+.contacts {
+  &__phone {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.contacts {
+
+  // .contacts__phone
+
+  &__phone {
+  }
+
+  // .contacts__list
+
+  &__list {
+  }
+
+  // .contacts__item
+
+  &__item {
+  }
+
+  // .contacts__link
+
+  &__link {
+  }
+}
