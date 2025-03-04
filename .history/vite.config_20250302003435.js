@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import autoprefixer from "autoprefixer";
-import Legacy from "@vitejs/plugin-legacy";
-import {viteStaticCopy} from 'vite-plugin-static-copy';
+import Legacy from "npm i ";
+import viteStaticCopy from 'vite-plugin-static-copy';
 
 export default defineConfig({
     base: "Koff",

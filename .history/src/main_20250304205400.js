@@ -32,6 +32,8 @@ const productSlider =()=> {
   })
 }
 
+
+
 const init =()=>{
   new Header().mount();
   new Main().mount();
